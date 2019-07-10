@@ -1,0 +1,291 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../iMG0/imgfondo.jpg);
+}
+div.container{
+  margin: 0 auto;
+}
+nav {
+    background-color: rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+}
+#navtext{
+  color: yellow;
+}
+#navtext:hover{
+  background-color: #333;
+}
+.dropdown-menu{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.dropdown-item a{
+  color:yellow;
+}
+.banner{
+  overflow: hidden;
+  position: relative;
+}
+.fotobanner{
+  max-width: 100%;
+  border: 3px solid black;
+  margin-bottom: 10px;
+}
+.imgreloj{
+
+}
+.container-fluid{
+  padding: 13px;
+}
+.navbar-nav{
+  padding-left: 10px;
+}
+form.navbar-form.navbar-left{
+  padding-left: 50px;
+}
+.main-footer{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 1);
+  padding: 20px 60px 20px 201px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  color:white;
+  border: 1px solid grey;
+}
+.footerul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.footerli{
+  font-size: 50px;
+  color: white;
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+  float: right;
+  list-style-type: none;
+}
+.containerlogos{
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.title-container{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+h4.categoriastexto{
+  color: yellow;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.catprincipales{
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.thumbnail{
+  overflow: hidden;
+  border: 3px solid yellow;
+  position: relative;
+  background-color: black;
+}
+.thumbnail-producto{
+  overflow: hidden;
+  border: 3px solid yellow;
+  position: relative;
+  background-color: black;
+
+}
+h3.textofoto{
+  position: absolute;
+  z-index: 900;
+  text-align: center;
+  right: 0px;
+  left: 0px;
+  top: 210px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-style: oblique;
+}
+a{
+  text-transform: uppercase;
+  color: black;
+}
+#diseños{
+  background-color: yellow;
+}
+.separator{
+  padding: 0px;
+  position: relative;
+}
+hr{
+  z-index: 100;
+  color: white;
+  width: 100%;
+}
+.destacados{
+  color: yellow;
+  z-index: 900;
+  text-align: center;
+  /* position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%; */
+}
+.form-control{
+  background-color: inherit;
+  border: 1px solid yellow;
+}
+p.textoimg {
+  color: white;
+}
+#contenidofooter{
+  border-left: 2px solid white;
+  margin-bottom: 10px;
+}
+#contenidofooter1{
+  border-left: 2px solid white;
+  margin-bottom: 10px;
+}
+.fototarjeta{
+  height: 30px;
+}
+.ultimoboton1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ultimoboton{
+  background-color: yellow;
+  align-items: center;
+  margin:20px;
+}
+.contenedorfooter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+h3.usuariosregistrados{
+  color: white;
+}
+.logo{
+  display: inline-block;
+  text-align: center;
+  margin-left: 229px;
+}
+]* {
+
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+
+}
+.container-login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-register{
+
+}
+div.card{
+  width: 100%;
+  color:yellow;
+  border-color: yellow;
+}
+
+form {
+  margin: auto;
+  width: 50%;
+  max-width: 400px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid;
+  text-align: center;
+  background-color: black;
+  color: yellow;
+
+}
+form.caja{
+  margin-top: 200px;
+}
+
+.login {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pass {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.dato1{
+  border: 1px solid yellow;
+  background-color: inherit;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+}
+.recordar{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+input[type="submit"] {
+
+  background:rgb(255,250,205);
+  border: 0;
+  color: black;
+  cursor: pointer;
+  border-radius: 20px;
+}
+button[type="button"] {
+
+  border: 0;
+  color: red;
+  cursor: pointer;
+  border-radius: 20px;
+}
+button{
+  background-color: inherit;
+  border-color: inherit;
+}
+.logout{
+  border-color: black;
+  display: flex;
+  align-items:
+  justify-content: center;
+}
+.listado{
+  background-color: white;
+}
+.detalleproducto{
+  color:yellow;
+  width: 100%;
+  margin: 40px;
+}

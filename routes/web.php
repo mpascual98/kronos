@@ -11,9 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'ProductController@index');
+Route::get('/product/{id}', 'ProductController@show');
+Route::get('/categories/{id}', 'CategoryController@show');
 
 Auth::routes();
 
