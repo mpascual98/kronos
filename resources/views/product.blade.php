@@ -3,6 +3,7 @@
   @section('principal')
 
 <div class="detalleproducto">
+
       <div class="col-sm-6 col-md-8">
       <div class="thumbnail-producto">
           <h2>Detalle Producto {{$product->id}}</h2>
@@ -15,11 +16,11 @@
         <br>
         <p class="textoimg">Descripcion: <br> {{$product->description}}</p>
         <br>
-        <p class="textoimg">Categoria: <br> {{$product->categories[0]->name}}</p>
+        <p class="textoimg">Categoria: <br> {{$product->categories->first()->name}}</p>
         </div>
       </div>
 
-      
+
     </div>
   </div>
 
