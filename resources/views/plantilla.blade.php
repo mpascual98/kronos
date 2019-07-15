@@ -36,9 +36,9 @@
           <li class="nav-item dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="navtext">Categorias<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Relojes</a></li>
-              <li><a class="dropdown-item" href="#">Billeteras</a></li>
-              <li><a class="dropdown-item" href="#">Eco-Billeteras</a></li>
+              <li><a class="dropdown-item" href="/categories/3">Relojes</a></li>
+              <li><a class="dropdown-item" href="/categories/1">Billeteras</a></li>
+              <li><a class="dropdown-item" href="/categories/2">Eco-Billeteras</a></li>
             </ul>
           </li>
         </ul>
@@ -74,7 +74,7 @@
                         <li> <a href="{{ route('register') }}" id="navtext" >Registrate</a> </li>
                               @endif
                           @endauth
-                          <li> <a href="#" id="navtext"> <i class="fas fa-shopping-cart"></i></a> </li>
+                          <li> <a href="/cart" id="navtext"> <i class="fas fa-shopping-cart"></i></a> </li>
                       </div>
                   @endif
                 </div>

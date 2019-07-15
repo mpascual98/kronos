@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Cart extends Model
 {
   use softDeletes;
-  protected $guarded=[];
+  // protected $guarded=[];
 }

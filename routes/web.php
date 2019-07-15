@@ -14,6 +14,9 @@
 Route::get('/', 'ProductController@index');
 Route::get('/product/{id}', 'ProductController@show');
 Route::get('/categories/{id}', 'CategoryController@show');
+Route::get('/product/addtocart/{id}', 'CartController@store');
+
+Route::get('/cart', 'CartController@show');
 
 Auth::routes();
 
