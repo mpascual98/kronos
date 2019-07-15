@@ -3,6 +3,7 @@
   @section('principal')
 
 <div class="detalleproducto">
+
       <div class="col-sm-6 col-md-8">
       <div class="thumbnail-producto">
           <h2>Detalle Producto {{$product->name}}</h2>
