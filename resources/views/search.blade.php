@@ -1,3 +1,4 @@
+
 @extends('plantilla')
 
   @section('principal')
@@ -6,9 +7,9 @@
 
       <div class="col-sm-6 col-md-8">
       <div class="thumbnail-producto">
-          <h2>Detalle Producto {{$product->name}}</h2>
-        <img class="imgreloj" src="/storage/products/{{$product->featured_img}}" alt="...">
-        <br><br>
+          <h2> Productos </h2>
+@foreach ($products as $product)
+
         <div class="caption">
         <p class="textoimg">Nombre: <br> {{$product->name}} </p>
         <br>
@@ -16,12 +17,19 @@
         <br>
         <p class="textoimg">Descripcion: <br> {{$product->description}}</p>
         <br>
-        {{-- <p class="textoimg">Categoria: <br> {{$product->categories[0]->name}}</p> --}}
-        {{-- <a href="/product/addtocart/{{$product->id}}"  id="navtext"> <i class="fas fa-shopping-cart"></i> Agregar al Carrito </a> --}}
-        <br> <br>
+        <img class="imgreloj" src="/storage/products/{{$product->featured_img}}" alt="..." width="300" height="310">
+        <br><br>
+
+      @endforeach
 
         </div>
       </div>
+{{--
+      @foreach ($products as $product)
+      <li> Nombre: {{$product->name}}  </li>
+      <br>
+      <li> Precio: {{$product->price}}  </li>
+      @endforeach --}}
 
     </div>
   </div>

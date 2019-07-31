@@ -42,14 +42,17 @@
             </ul>
           </li>
         </ul>
-        <form class="navbar-form navbar-left">
+        <form class="navbar-form navbar-left" action="/products/search" method="get">
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Buscar...">
+            <input type="text" class="form-control" name="search" placeholder="Buscar...">
           </div>
           <button type="submit" class="btn btn-default" id="lup">
             <i class="fas fa-search"></i>
           </button>
         </form>
+
+
+
         <div class="logo">
             <a href="/"> <img  class="logocompany" src="IMG0/logocompany01.png" class="lohoexample" style="width:100px; height:45px; "alt=""> </a>
         </div>

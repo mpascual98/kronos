@@ -16,7 +16,7 @@ Route::get('/product/{id}', 'ProductController@show');
 Route::get('/categories/{id}', 'CategoryController@show');
 Route::get('/product/addtocart/{id}', 'CartController@store');
 
-Route::get('/cart', 'CartController@show');
+Route::get('/cart', 'CartController@show')->middleware('auth');
 
 Auth::routes();
 
@@ -25,3 +25,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/plantilla', function () {
     return view('plantilla');
 });
+
+
+Route::get('/products', "ProductController@directory"); // Le digo que vaya a buscar a ActorController directory
+Route::get('/products/search', "ProductController@search"); // Le digo que vaya a buscar a ActorController directory

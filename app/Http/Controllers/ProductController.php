@@ -87,4 +87,18 @@ class ProductController extends Controller
     {
         //
     }
+//
+    public function search()
+{
+
+   $param = $_GET["search"]; //search es poruq el epuse search al form.
+   // var_dump($param);
+   // exit;
+   $products = Product::where('name', 'like', "$param%" )->get(); //no olvidar get() para las colnsultas where;
+  // dd($products);
+
+   return view('search')->with('products', $products);
+
+}
+
 }
